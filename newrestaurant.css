@@ -1,0 +1,101 @@
+
+
+.topNav {
+    background-color: #333; !* Background color of the navigation bar *!
+}
+
+.topNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topNav li {
+    float: left;
+}
+
+.topNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topNav li a:hover {
+    background-color: #555;
+}
+
+.topNav li a.active {
+    background-color: #4CAF50; !* Color for active link *!
+}
+.topNav .right{
+    float: right;
+}
+.topNav .callIcon{
+    vertical-align: middle; !* Align the image vertically in the middle *!
+    margin-right: 5px;
+    height: 20px;
+    width: auto;
+}
+
+.topNav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topNav li {
+    float: left;
+}
+
+.topNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topNav li a:hover {
+    background-color: #555;
+}
+
+.topNav li a.active {
+    background-color: #4CAF50;
+}
+
+.topNav .right {
+    float: right;
+}
+
+.topNav .callIcon {
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 20px;
+    width: auto;
+}
+
+.background-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img{
+    float: right;
+}
